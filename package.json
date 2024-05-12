@@ -1,0 +1,23 @@
+{
+  "name": "letspython",
+  "version": "1.0.0",
+  "description": "Let's Python.",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "poetry.install": "poetry install",
+    "poetry.pytest": "poetry run pytest",
+    "poetry.mypy": "poetry run mypy",
+    "poetry.ruff.check": "poetry run ruff check",
+    "poetry.ruff.format": "poetry run ruff format"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@prettier/plugin-xml": "3.4.1",
+    "prettier": "3.2.5",
+    "prettier-eslint": "16.3.0",
+    "prettier-plugin-organize-imports": "3.2.4"
+  }
+}
